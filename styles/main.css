@@ -1,2 +1,10 @@
 body {
   background-color: lightgray; }
+
+.googleButton {
+  background-color: transparent;
+  border-style: none; }
+
+.contactForm {
+  margin-bottom: 25px;
+  text-align: center; }
