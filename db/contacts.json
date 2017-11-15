@@ -1,0 +1,94 @@
+{
+	"contacts":{
+			"contact0": {
+				"firstName": "Mom",
+				"lastName": "Lewis",
+				"phoneNumber": "913-375-4911",
+				"address": "6946 Barth Road, Shawnee, KS 66226",
+				"email": "ael9917@yahoo.com",
+				"birthday": "March 29, 1965",
+				"nickName": "Mom"
+		},
+			"contact1": {
+				"firstName": "Dad",
+				"lastName": "Lewis",
+				"phoneNumber": "913-638-5490",
+				"address": "6946 Barth Road, Shawnee, KS 66226",
+				"email": "scott.o.lewis@gmail.com",
+				"birthday": "December 5, 1965",
+				"nickName": "Dad"
+		},
+			"contact2": {
+				"firstName": "Andy",
+				"lastName": "Weathers",
+				"phoneNumber": "661-202-9411",
+				"address": "1260 Martin Street, Unit 202, Nashville, TN 37203",
+				"email": "andyandstrife@me.com",
+				"birthday": "October 5, 1986",
+				"nickName": "Feathers Weathers"
+		},
+			"contact3": {
+				"firstName": "Katie",
+				"lastName": "McGinnis",
+				"phoneNumber": "615-774-0393",
+				"address": "388 Louis Ave Nashville, TN 37204",
+				"email": "kathrynmcginnis@darlin.com",
+				"birthday": "December 2, 1990",
+				"nickName": "Katie"
+		},
+			"contact4": {
+				"firstName": "Sasha",
+				"lastName": "Santillian",
+				"phoneNumber": "913-990-0393",
+				"address": "4348 Harrison Street Kansas City, MO 66240",
+				"email": "sashasantillian@gmail.com",
+				"birthday": "July 3, 1988",
+				"nickName": "Salsa"
+		},
+			"contact5": {
+				"firstName": "Ross",
+				"lastName": "Brown",
+				"phoneNumber": "913-930-9932",
+				"address": "2340 Harrison Street Kansas City, MO 66240",
+				"email": "rossbrown@gmail.com",
+				"birthday": "January 2, 1988",
+				"nickName": "Sauce"
+		},
+			"contact6": {
+				"firstName": "Sports",
+				"lastName": "Lewis-Weathers",
+				"phoneNumber": "913-800-0149",
+				"address": "1260 Martin Street, Unit 202, Nashville, TN 37203",
+				"email": "sportsisadog@gmail.com",
+				"birthday": "May 16, 2016",
+				"nickName": "Sportsberg"
+		},
+			"contact7": {
+				"firstName": "Samiyla",
+				"lastName": "Paxton",
+				"phoneNumber": "913-883-0134",
+				"address": "1243 Plaza Street Kansas City, MO 66233",
+				"email": "samipaxton@gmail.com",
+				"birthday": "January 9, 1989",
+				"nickName" "Sami"
+		},
+			"contact8": {
+				"firstName": "Alex",
+				"lastName": "Lewis",
+				"phoneNumber": "913-800-0012",
+				"address": "6946 Barth Road Shawnee, KS 66226",
+				"email": "alexlewis@gmail.com",
+				"birthday": "July 2, 2001",
+				"nickName": "Bro"
+		},
+			"contact9": {
+				"firstName": "Grandma",
+				"lastName": "Lewis",
+				"phoneNumber": "502-395-3423",
+				"address": "234 Kurtyka Circle Oskaloosa, IA 58843",
+				"email": "grandma@gmail.com",
+				"birthday": "Oct 15, 1954",
+				"nickName": "Grandma"
+			}
+		}
+	}
