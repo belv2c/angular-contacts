@@ -1,12 +1,24 @@
 "use strict";
 
-app.controller("NewCtrl", function($location, $rootScope, $scope, ContactService) {
-	$scope.submitForm = (user) => {
-		$scope.user.uid = $rootScope.uid;
-		ContactService.postNewContact(user).then((results) => {
+app.controller("NewCtrl", function($http, $location, $rootScope, $scope, ContactService) {
+	$scope.newcontact = {};
+
+	$scope.submitForm = () => {
+		let newContact = {
+			"firstName": $scope.newcontact.firstname,
+			"lastName": $scope.newcontact.lastname,
+			"address": $scope.newcontact.address,
+			"phoneNumber": $scope.newcontact.phonenumber,
+			"email": $scope.newcontact.email,
+			"birthday": $scope.newcontact.birthday,
+			"nickName": $scope.newcontact.nickname,
+			"user_id": $rootScope.uid
+		};
+		
+		ContactService.addNewContact(newContact).then((results) => {
 			$location.path("/contacts/view");
 		}).catch((err) => {
-			console.log("error in postNewContact", err);
+			console.log("error in addContact", err);
 		});
 	};
 });

@@ -7,7 +7,8 @@
 				"address": "6946 Barth Road, Shawnee, KS 66226",
 				"email": "ael9917@yahoo.com",
 				"birthday": "March 29, 1965",
-				"nickName": "Mom"
+				"nickName": "Mom",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact1": {
 				"firstName": "Dad",
@@ -16,7 +17,8 @@
 				"address": "6946 Barth Road, Shawnee, KS 66226",
 				"email": "scott.o.lewis@gmail.com",
 				"birthday": "December 5, 1965",
-				"nickName": "Dad"
+				"nickName": "Dad",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact2": {
 				"firstName": "Andy",
@@ -25,7 +27,8 @@
 				"address": "1260 Martin Street, Unit 202, Nashville, TN 37203",
 				"email": "andyandstrife@me.com",
 				"birthday": "October 5, 1986",
-				"nickName": "Feathers Weathers"
+				"nickName": "Feathers Weathers",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact3": {
 				"firstName": "Katie",
@@ -34,7 +37,8 @@
 				"address": "388 Louis Ave Nashville, TN 37204",
 				"email": "kathrynmcginnis@darlin.com",
 				"birthday": "December 2, 1990",
-				"nickName": "Katie"
+				"nickName": "Katie",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact4": {
 				"firstName": "Sasha",
@@ -43,7 +47,8 @@
 				"address": "4348 Harrison Street Kansas City, MO 66240",
 				"email": "sashasantillian@gmail.com",
 				"birthday": "July 3, 1988",
-				"nickName": "Salsa"
+				"nickName": "Salsa",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact5": {
 				"firstName": "Ross",
@@ -52,7 +57,8 @@
 				"address": "2340 Harrison Street Kansas City, MO 66240",
 				"email": "rossbrown@gmail.com",
 				"birthday": "January 2, 1988",
-				"nickName": "Sauce"
+				"nickName": "Sauce",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact6": {
 				"firstName": "Sports",
@@ -61,7 +67,8 @@
 				"address": "1260 Martin Street, Unit 202, Nashville, TN 37203",
 				"email": "sportsisadog@gmail.com",
 				"birthday": "May 16, 2016",
-				"nickName": "Sportsberg"
+				"nickName": "Sportsberg",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact7": {
 				"firstName": "Samiyla",
@@ -70,7 +77,8 @@
 				"address": "1243 Plaza Street Kansas City, MO 66233",
 				"email": "samipaxton@gmail.com",
 				"birthday": "January 9, 1989",
-				"nickName": "Sami"
+				"nickName": "Sami",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact8": {
 				"firstName": "Alex",
@@ -79,7 +87,8 @@
 				"address": "6946 Barth Road Shawnee, KS 66226",
 				"email": "alexlewis@gmail.com",
 				"birthday": "July 2, 2001",
-				"nickName": "Bro"
+				"nickName": "Bro",
+				"user_id": "12345"
 		},
 			"contact9": {
 				"firstName": "Grandma",
@@ -88,7 +97,8 @@
 				"address": "234 Kurtyka Circle Oskaloosa, IA 58843",
 				"email": "grandma@gmail.com",
 				"birthday": "Oct 15, 1954",
-				"nickName": "Grandma"
+				"nickName": "Grandma",
+				"user_id": "12345"
 			}
 		}
 	}

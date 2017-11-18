@@ -1,7 +1,8 @@
 "use strict";
 
 app.controller("ViewCtrl", function($rootScope, $scope, ContactService) {
-	
+	$scope.contacts = [];
+
 	const getContacts = () => {
 		ContactService.getAllTheContacts($rootScope.uid).then((results) => {
 			$scope.contacts = results;
@@ -9,7 +10,8 @@ app.controller("ViewCtrl", function($rootScope, $scope, ContactService) {
 			console.log("error in getContacts", err);
 		});
 	};
-
+	getContacts();
+	
 	$scope.deleteContact = (userId) => {
 		ContactService.deleteContact(userId).then((results) => {
 			getContacts();
@@ -17,5 +19,5 @@ app.controller("ViewCtrl", function($rootScope, $scope, ContactService) {
 			console.log("error in deleteContact", err);
 		});
 	};
-	getContacts();
+
 });

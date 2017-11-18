@@ -1,33 +1,42 @@
-<div class="contactForm container" ng-controller="NewCtrl">
-<div class="col-md-6">
-    <div class="form-area">  
-        <form role="form">
-                    <h3 class="contact-form">Contact Form</h3>
-    				<div class="form-group">
-						<input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="address" name="address" placeholder="Home Address" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="email" name="email" placeholder="E-mail address" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="Birthday" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="nickName" name="nickName" placeholder="Nick-name" required>
-					</div>                  
-                    
-            
-        <button type="button col-md-6 col-md-offset-3" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
-        </form>
+<div class="text-center" id="new" ng-controller="NewCtrl">
+<div class="contactForm container">
+  <form class="form" name="newcontact">
+    <div class="row inputRow">
+   
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="FirstName" placeholder="First Name" ng-model="newcontact.firstname" required>
+      </div>
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="LastName" placeholder="Last Name" ng-model="newcontact.lastname" required>
+      </div>
     </div>
+    <div class="row inputRow">
+      <div class="col-xs-3">
+        <input type="tel" class="form-control" id="mobile" placeholder="Mobile Number" ng-model="newcontact.phonenumber" required>
+      </div>
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="address" placeholder="Address" ng-model="newcontact.address" required>
+      </div>
+    </div>
+    <div class="row inputRow">
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="bday" placeholder="Birthday" ng-model="newcontact.birthday" required>
+      </div>
+      <div class="col-xs-3">
+       <input type="text" class="form-control" id="nickname" placeholder="Nick-name" ng-model="newcontact.nickname" required>
+      </div>
+      </div>
+      <div class="row inputRow">
+      <div class="col-xs-3">
+        <input type="email" class="form-control" id="email" placeholder="Email" ng-model="newcontact.email" required>
+      </div>
+      </div>
+    </div>
+     <button ng-disabled="contactForm.$invalid" type="button" class="btn btn-default col-md-2 col-md-offset-4" ng-click="submitForm()">Submit</button>
+  </form>
+</div>     
 </div>
-</div>
+         
+                    
+   
+ 
