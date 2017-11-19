@@ -1,20 +1,19 @@
+@import 'colors';
 
 .thumbnail {
     border-radius: 35px;
 	box-shadow: 0 0 15px rgba(0,0,0,0.3);
 	background: linear-gradient(to left, #00D2C8, #1A8A9D);
   	max-width: 296px;
-  	color: white;
+  	color: $white;
   	margin-bottom: 40px;
   	margin: 36px;
 
 
-
-
 	.delete {
 		border: none;
-		background-color: transparent;
-    	color: white;
+		background-color: $clear;
+    	color: $white;
     	font-size: x-large;
     	margin-top: -44px;
     	
@@ -24,8 +23,8 @@
 #memberImg {
 	margin-top: -37px;
 	font-size: 5em;
-    background-color: lightslategray;
-    color: white;
+    background-color: $lightgray;
+    color: $white;
     border-radius: 39px;
  }
 

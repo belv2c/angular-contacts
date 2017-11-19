@@ -1,11 +1,13 @@
 @import 'cards';
+@import 'colors';
+@import 'elements';
 
 body {
-	background-color: white;
+	background-color: $white;
 }
 
 .googleButton {
-	background-color: transparent;
+	background-color: $clear;
     border-style: none;
 }
 
@@ -15,6 +17,10 @@ body {
 
 	.row {
 		margin-bottom: 17px;
+
+		.friends-title {
+			margin-left: -460px;
+		}
 	}
 }
 
@@ -22,4 +28,6 @@ body {
 	text-align: center;
     margin-bottom: 32px;
 }
+
+
 

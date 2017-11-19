@@ -1,3 +1,4 @@
+/** Colors **/
 .thumbnail {
   border-radius: 35px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -31,6 +32,7 @@
   -moz-transform: translateY(-1px);
   cursor: pointer; }
 
+/** Colors **/
 body {
   background-color: white; }
 
@@ -43,6 +45,8 @@ body {
   text-align: center; }
   .contactForm .row {
     margin-bottom: 17px; }
+    .contactForm .row .friends-title {
+      margin-left: -460px; }
 
 .friend-form {
   text-align: center;

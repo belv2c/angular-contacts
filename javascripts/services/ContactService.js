@@ -25,7 +25,11 @@ const addNewContact = (newContact) => {
 	return $http.post(`${FIREBASE_CONFIG.databaseURL}/contacts.json`, JSON.stringify(newContact));
 };
 
+const deleteContact = (userId) => {
+		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${userId}.json`);
+	};
 
-return {addNewContact, getAllTheContacts};
+
+return {addNewContact, getAllTheContacts, deleteContact};
 });
 
