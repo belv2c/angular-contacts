@@ -1,4 +1,20 @@
 <div class="text-center" id="view">
-	<h1>View</h1>
-	{{controller}}
+		<h1>My Contacts</h1>
+	<div id="contacts">
+		<div ng-repeat="contact in contacts" class="col-lg-4 contact">
+			<div class="thumbnail">
+				
+			<div class="contact-holder">
+				<i class="fa fa-user-circle-o" id="memberImg" aria-hidden="true"></i>
+				<h4>{{contact.firstName}} {{contact.lastName}}</h4>
+				<p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{contact.address}}</p>
+				<p><i class="fa fa-mobile" aria-hidden="true"></i> {{contact.phoneNumber}}</p>
+				<p><i class="fa fa-envelope-o" aria-hidden="true"></i> {{contact.email}} </p>
+				<p><i class="fa fa-birthday-cake" aria-hidden="true"></i> {{contact.birthday}}</p>
+				<p><i class="fa fa-heart-o" aria-hidden="true"></i> {{contact.nickName}} </p>
+			</div>
+			<button class="btn btn-default delete col-xs-3" ng-click="deleteContact(contact.id)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+		</div>
+	  </div>
+	</div>
 </div>

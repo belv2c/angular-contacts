@@ -1,3 +1,36 @@
+.thumbnail {
+  border-radius: 35px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to left, #00D2C8, #1A8A9D);
+  max-width: 296px;
+  color: white;
+  margin-bottom: 40px;
+  margin: 36px; }
+  .thumbnail .delete {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+    margin-top: -44px; }
+
+#memberImg {
+  margin-top: -37px;
+  font-size: 5em;
+  background-color: lightslategray;
+  color: white;
+  border-radius: 39px; }
+
+.location {
+  font-size: 1.2em; }
+
+#memberImg:hover {
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.3);
+  margin-right: 5px;
+  transform: translateY(-1px);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  cursor: pointer; }
+
 body {
   background-color: white; }
 
