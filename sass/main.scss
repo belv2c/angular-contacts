@@ -1,13 +1,33 @@
+@import 'cards';
+@import 'colors';
+@import 'elements';
+
 body {
-	background-color: lightgray;
+	background-color: $white;
 }
 
 .googleButton {
-	background-color: transparent;
+	background-color: $clear;
     border-style: none;
 }
 
 .contactForm {
 	margin-bottom: 25px; 
 	text-align: center;
+
+	.row {
+		margin-bottom: 17px;
+
+		.friends-title {
+			margin-left: -460px;
+		}
+	}
 }
+
+.friend-form {
+	text-align: center;
+    margin-bottom: 32px;
+}
+
+
+

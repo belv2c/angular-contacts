@@ -4,91 +4,101 @@
 				"firstName": "Mom",
 				"lastName": "Lewis",
 				"phoneNumber": "913-375-4911",
-				"address": "6946 Barth Road, Shawnee, KS 66226",
+				"address": "Shawnee, KS",
 				"email": "ael9917@yahoo.com",
 				"birthday": "March 29, 1965",
-				"nickName": "Mom"
+				"nickName": "Mom",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact1": {
 				"firstName": "Dad",
 				"lastName": "Lewis",
 				"phoneNumber": "913-638-5490",
-				"address": "6946 Barth Road, Shawnee, KS 66226",
+				"address": "Shawnee, KS",
 				"email": "scott.o.lewis@gmail.com",
 				"birthday": "December 5, 1965",
-				"nickName": "Dad"
+				"nickName": "Dad",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact2": {
 				"firstName": "Andy",
 				"lastName": "Weathers",
 				"phoneNumber": "661-202-9411",
-				"address": "1260 Martin Street, Unit 202, Nashville, TN 37203",
+				"address": "Nashville, TN",
 				"email": "andyandstrife@me.com",
 				"birthday": "October 5, 1986",
-				"nickName": "Feathers Weathers"
+				"nickName": "Feathers Weathers",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact3": {
 				"firstName": "Katie",
 				"lastName": "McGinnis",
 				"phoneNumber": "615-774-0393",
-				"address": "388 Louis Ave Nashville, TN 37204",
+				"address": "Nashville, TN",
 				"email": "kathrynmcginnis@darlin.com",
 				"birthday": "December 2, 1990",
-				"nickName": "Katie"
+				"nickName": "Katie",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact4": {
 				"firstName": "Sasha",
 				"lastName": "Santillian",
 				"phoneNumber": "913-990-0393",
-				"address": "4348 Harrison Street Kansas City, MO 66240",
+				"address": "Kansas City, MO",
 				"email": "sashasantillian@gmail.com",
 				"birthday": "July 3, 1988",
-				"nickName": "Salsa"
+				"nickName": "Salsa",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact5": {
 				"firstName": "Ross",
 				"lastName": "Brown",
 				"phoneNumber": "913-930-9932",
-				"address": "2340 Harrison Street Kansas City, MO 66240",
+				"address": "Kansas City, MO",
 				"email": "rossbrown@gmail.com",
 				"birthday": "January 2, 1988",
-				"nickName": "Sauce"
+				"nickName": "Sauce",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact6": {
 				"firstName": "Sports",
 				"lastName": "Lewis-Weathers",
 				"phoneNumber": "913-800-0149",
-				"address": "1260 Martin Street, Unit 202, Nashville, TN 37203",
+				"address": "Nashville, TN",
 				"email": "sportsisadog@gmail.com",
 				"birthday": "May 16, 2016",
-				"nickName": "Sportsberg"
+				"nickName": "Sportsberg",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact7": {
 				"firstName": "Samiyla",
 				"lastName": "Paxton",
 				"phoneNumber": "913-883-0134",
-				"address": "1243 Plaza Street Kansas City, MO 66233",
+				"address": "Kansas City, MO",
 				"email": "samipaxton@gmail.com",
 				"birthday": "January 9, 1989",
-				"nickName" "Sami"
+				"nickName": "Sami",
+				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact8": {
 				"firstName": "Alex",
 				"lastName": "Lewis",
 				"phoneNumber": "913-800-0012",
-				"address": "6946 Barth Road Shawnee, KS 66226",
+				"address": "Shawnee, KS",
 				"email": "alexlewis@gmail.com",
 				"birthday": "July 2, 2001",
-				"nickName": "Bro"
+				"nickName": "Bro",
+				"user_id": "12345"
 		},
 			"contact9": {
 				"firstName": "Grandma",
 				"lastName": "Lewis",
 				"phoneNumber": "502-395-3423",
-				"address": "234 Kurtyka Circle Oskaloosa, IA 58843",
+				"address": "Oskaloosa, IA",
 				"email": "grandma@gmail.com",
 				"birthday": "Oct 15, 1954",
-				"nickName": "Grandma"
+				"nickName": "Grandma",
+				"user_id": "12345"
 			}
 		}
 	}
