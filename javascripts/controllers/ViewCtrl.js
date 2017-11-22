@@ -20,10 +20,10 @@ app.controller("ViewCtrl", function($rootScope, $scope, ContactService) {
 		});
 	};
 
-	$scope.switchFavorite = (contact) => {
-		contact.isFavorite = true;
-		let updateContact = ContactService.submitForm();
-		ContactService.updateContact(updateContact, contact.id).then((result) => {
+	$scope.switchFavorite = (contact, userId) => {
+		contact.isFavorite = contact.isFavorite ? true: false;
+		let userFave = ContactService.submitForm(contact);
+		ContactService.updateContact(userFave, userId).then((result) => {
 			getContacts();
 		}).catch((err) => {
 			console.log("error in updateContact", err);
