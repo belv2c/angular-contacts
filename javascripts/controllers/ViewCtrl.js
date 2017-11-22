@@ -20,4 +20,14 @@ app.controller("ViewCtrl", function($rootScope, $scope, ContactService) {
 		});
 	};
 
+	$scope.switchFavorite = (contact) => {
+		contact.isFavorite = true;
+		let updateContact = ContactService.submitForm();
+		ContactService.updateContact(updateContact, contact.id).then((result) => {
+			getContacts();
+		}).catch((err) => {
+			console.log("error in updateContact", err);
+		});
+	};
+
 });
