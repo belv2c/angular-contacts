@@ -4,7 +4,7 @@
     <div class="row inputRow">
       <h3 class="friends-title"> Let's get you some friends </h3>
       <div class="col-xs-3">
-        <input type="text" class="form-control" id="FirstName" placeholder="First Name" ng-model="contact.firstname" ng-required="true">
+        <input type="text" class="form-control" id="firstName" placeholder="First Name" ng-model="contact.firstName" ng-required="true">
       </div>
       <div class="col-xs-3">
         <input type="text" class="form-control" id="LastName" placeholder="Last Name" ng-model="contact.lastname" ng-required="true">
@@ -32,7 +32,7 @@
       </div>
       </div>
     </div>
-     <button ng-disabled="contact.$invalid" type="button" class="btn btn-default col-xs-1 col-md-offset-6" ng-click="submitContactsForm(newContact)">Submit</button>
+     <button ng-disabled="contact.$invalid" type="button" class="btn btn-default col-xs-1 col-md-offset-6" ng-click="submitContactsForm(contact)">Submit</button>
   </form>
 </div>     
 </div>

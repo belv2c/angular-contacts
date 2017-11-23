@@ -1,6 +1,6 @@
 "use strict";
 
-app.service("ContactService", function($http, $q, FIREBASE_CONFIG) {
+app.service("ContactService", function($http, $q, $rootScope, FIREBASE_CONFIG) {
 	
 	const getAllTheContacts = (userUid) => {
 		let contactsArray = [];
@@ -25,7 +25,7 @@ app.service("ContactService", function($http, $q, FIREBASE_CONFIG) {
 				let contacts = results.data;
 				Object.keys(contacts).forEach((key) => {
 					contacts[key].id = key;
-					if(!contacts[key].isFavorite) {
+					if(contacts[key].isFavorite) {
 					contactsArray.push(contacts[key]);
 						}
 					});
@@ -50,15 +50,15 @@ const updateContact = (contact, userId) => {
 
 		const submitForm = (contact) => {
 			return {
-			"firstName": contact.firstname,
-			"lastName": contact.lastname,
+			"firstName": contact.firstName,
+			"lastName": contact.lastName,
 			"address": contact.address,
-			"phoneNumber": contact.phonenumber,
+			"phoneNumber": contact.phoneNumber,
 			"email": contact.email,
 			"birthday": contact.birthday,
-			"nickName": contact.nickname,
+			"nickName": contact.nickName,
 			"isFavorite": contact.isFavorite,
-			"user_id": contact.uid
+			"user_id": $rootScope.uid
 		};
 	};	
 
