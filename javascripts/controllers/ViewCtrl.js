@@ -23,7 +23,7 @@ app.controller("ViewCtrl", function($rootScope, $scope, ContactService) {
 	};
 
 // if contact is favorited, call updateContact from ContactService, submit form by user id and get contacts again
-	$scope.switchFavorite = (contact, userId) => {
+	/*$scope.switchFavorite = (contact, userId) => {
 		contact.isFavorite = contact.isFavorite ? true: false;
 		let userFave = ContactService.submitForm(contact);
 		ContactService.updateContact(userFave, userId).then((result) => {
@@ -31,6 +31,6 @@ app.controller("ViewCtrl", function($rootScope, $scope, ContactService) {
 		}).catch((err) => {
 			console.log("error in updateContact", err);
 		});
-	};
+	};*/
 
 });

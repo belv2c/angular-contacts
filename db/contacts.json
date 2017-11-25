@@ -9,7 +9,7 @@
 				"birthday": "March 29, 1965",
 				"nickName": "Mom",
 				"isFavorite": true,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact1": {
 				"firstName": "Dad",
@@ -20,7 +20,7 @@
 				"birthday": "December 5, 1965",
 				"nickName": "Dad",
 				"isFavorite": true,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact2": {
 				"firstName": "Andy",
@@ -31,7 +31,7 @@
 				"birthday": "October 5, 1986",
 				"nickName": "Feathers Weathers",
 				"isFavorite": true,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact3": {
 				"firstName": "Katie",
@@ -42,7 +42,7 @@
 				"birthday": "December 2, 1990",
 				"nickName": "Katie",
 				"isFavorite": true,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact4": {
 				"firstName": "Sasha",
@@ -53,7 +53,7 @@
 				"birthday": "July 3, 1988",
 				"nickName": "Salsa",
 				"isFavorite": false,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact5": {
 				"firstName": "Ross",
@@ -64,7 +64,7 @@
 				"birthday": "January 2, 1988",
 				"nickName": "Sauce",
 				"isFavorite": false,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact6": {
 				"firstName": "Sports",
@@ -75,7 +75,7 @@
 				"birthday": "May 16, 2016",
 				"nickName": "Sportsberg",
 				"isFavorite": false,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact7": {
 				"firstName": "Samiyla",
@@ -86,7 +86,7 @@
 				"birthday": "January 9, 1989",
 				"nickName": "Sami",
 				"isFavorite": false,
-				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
+				"uid": "MTnGqrZOPTNyFVboRrv7sQc2vaj2"
 		},
 			"contact8": {
 				"firstName": "Alex",
@@ -97,7 +97,7 @@
 				"birthday": "July 2, 2001",
 				"nickName": "Bro",
 				"isFavorite": false,
-				"user_id": "12345"
+				"uid": "12345"
 		},
 			"contact9": {
 				"firstName": "Grandma",
@@ -108,7 +108,7 @@
 				"birthday": "Oct 15, 1954",
 				"nickName": "Grandma",
 				"isFavorite": false,
-				"user_id": "12345"
+				"uid": "12345"
 			}
 		}
 	}

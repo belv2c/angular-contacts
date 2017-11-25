@@ -5,7 +5,7 @@ app.service("ContactService", function($http, $q, $rootScope, FIREBASE_CONFIG) {
 	const getAllTheContacts = (userUid) => {
 		let contactsArray = [];
 		return $q ((resolve, reject) => {
-			$http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="user_id"&equalTo="${userUid}"`).then((results) => {
+			$http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
 				let contacts = results.data;
 				Object.keys(contacts).forEach((key) => {
 					contacts[key].id = key;
@@ -21,7 +21,7 @@ app.service("ContactService", function($http, $q, $rootScope, FIREBASE_CONFIG) {
 	const getFavoriteContacts = (userUid) => {
 		let contactsArray = [];
 		return $q ((resolve, reject) => {
-			$http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="user_id"&equalTo="${userUid}"`).then((results) => {
+			$http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
 				let contacts = results.data;
 				Object.keys(contacts).forEach((key) => {
 					contacts[key].id = key;
@@ -44,8 +44,8 @@ const deleteContact = (userId) => {
 		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${userId}.json`);
 	};
 
-const updateContact = (contact, userId) => {
-		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${userId}.json`, JSON.stringify(contact));
+const updateContact = (updatedContact, userId) => {
+		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${userId}.json`, JSON.stringify(updatedContact));
 	};
 
 		const submitForm = (contact) => {
@@ -58,7 +58,7 @@ const updateContact = (contact, userId) => {
 			"birthday": contact.birthday,
 			"nickName": contact.nickName,
 			"isFavorite": contact.isFavorite,
-			"user_id": $rootScope.uid
+			"uid": $rootScope.uid
 		};
 	};	
 
