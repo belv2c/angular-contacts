@@ -59,6 +59,18 @@ app.config(function($routeProvider){
 			controller: 'ViewCtrl',
 			resolve: '{isAuth}'
 		})
+		.when("/contacts/edit/:id", {
+			// path to html file and path to javascript file
+			templateUrl: 'partials/contacts/edit.html',
+			controller: 'EditCtrl',
+			resolve: '{isAuth}'
+		})
+		.when("/contacts/detail/:id", {
+			// path to html file and path to javascript file
+			templateUrl: 'partials/contacts/detail.html',
+			controller: 'DetailCtrl',
+			resolve: '{isAuth}'
+		})
 		
 		// if your user tries to type in any other route besides what you've defined you can redirect them
 		.otherwise('/login');
