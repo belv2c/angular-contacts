@@ -4,13 +4,13 @@ app.controller("EditCtrl", function($location, $rootScope, $routeParams, $scope,
 	
 const getContacts = () => {
 		ContactService.getOneContact($routeParams.id).then((results) => {
-			$scope.contacts = results;
+			$scope.contact = results.data;
 		}).catch((err) => {
 			console.log("error in getContacts", err);
 		});
 	};
 
-	$scope.submitForm = () => {
+	$scope.submitForm = (contact) => {
 		let updatedContact = {
 			"firstName": $scope.newcontact.firstname,
 			"lastName": $scope.newcontact.lastname,

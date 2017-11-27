@@ -1,0 +1,25 @@
+<div class="text-center" ng-controller="DetailCtrl">
+		<h1>Contact Details</h1>
+	<div id="contacts">
+		<div ng-repeat="contact in contacts" class="col-lg-4 contact">
+			<div class="thumbnail">
+				
+			<div class="contact-holder">
+				<i class="fa fa-user-circle-o" id="memberImg" aria-hidden="true"></i>
+				<h4>{{contact.firstName}} {{contact.lastName}}</h4>
+				<p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{contact.address}}</p>
+				<p><i class="fa fa-mobile" aria-hidden="true"></i> {{contact.phoneNumber}}</p>
+				<p><i class="fa fa-envelope-o" aria-hidden="true"></i> {{contact.email}} </p>
+				<p><i class="fa fa-birthday-cake" aria-hidden="true"></i> {{contact.birthday}}</p>
+				<p><i class="fa fa-heart-o" aria-hidden="true"></i> {{contact.nickName}} </p>
+			</div>
+			
+			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact)" ng-if="contact.favorite"><i class="fa fa-star" aria-hidden="true"></i></button>
+
+			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact)" ng-if="!contact.favorite"><i class="fa fa-star-o" aria-hidden="true"></i></button>
+
+			
+		</div>
+	  </div>
+	</div>
+</div>

@@ -15,9 +15,9 @@
 			</div>
 			<button class="btn btn-default delete col-xs-3" ng-click="deleteContact(contact.id)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
 
-			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact)" ng-if="contact.favorite"><i class="fa fa-star" aria-hidden="true"></i></button>
+			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact, true)" ng-if="contact.favorite"><i class="fa fa-star" aria-hidden="true"></i></button>
 
-			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact)" ng-if="!contact.favorite"><i class="fa fa-star-o" aria-hidden="true"></i></button>
+			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact, false)" ng-if="!contact.favorite"><i class="fa fa-star-o" aria-hidden="true"></i></button>
 
 			<button class="btn btn-default edit col-xs-3" ng-click="editContact(contact.id)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
 
