@@ -23,7 +23,7 @@ const getContacts = () => {
 			"favorite": false
 		};
 		
-		ContactService.updateContact(updatedContact, $routeParams.id).then((results) => {
+		ContactService.updateContact(contact, $routeParams.id).then((results) => {
 			$location.path("/contacts/view");
 		}).catch((err) => {
 			console.log("error in submitForm", err);

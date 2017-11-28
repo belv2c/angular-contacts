@@ -13,9 +13,10 @@ app.controller("FavoritesCtrl", function($location, $rootScope, $scope, ContactS
 		
 	};
 
+getContacts();
 
-$scope.deleteContact = (userId) => {
-		ContactService.deleteContact(userId).then((results) => {
+$scope.deleteContact = (contactId) => {
+		ContactService.deleteContact(contactId).then((results) => {
 			getContacts();
 		}).catch((err) => {
 			console.log("error in deleteContact", err);
@@ -23,31 +24,13 @@ $scope.deleteContact = (userId) => {
 	};
 
 
-$scope.favoriteContacts = (contact) => {
-	let updatedContact = {};
-
-	if (!contact.favorite) {
-		updatedContact = ContactService.createContactObject(contact);
-	} else {
-		updatedContact = ContactService.createContactObject(contact);
-		updatedContact.favorite = false;
-	}
-	ContactService.updateContact(updatedContact, contact.id).then(() => {
-		getContacts();
-	}).catch((err) => {
-		console.log("error in favoriteContacts", err);
-	});
+$scope.editContact = (contactId) => {
+	$location.path(`/contacts/edit/${contactId}`);
 };
 
-
-$scope.editContact = (userId) => {
-	$location.path(`/contacts/edit/${userId}`);
+$scope.contactDetail = (contactId) => {
+	$location.path(`/contacts/detail/${contactId}`);
 };
 
-$scope.contactDetail = (userId) => {
-	$location.path(`/contacts/detail/${userId}`);
-};
-
-getContacts();
 
 });

@@ -63,8 +63,8 @@ const deleteContact = (contactId) => {
 		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
 	};
 
-const updateContact = (contact, contactId) => {
-		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
+const updateContact = (updatedContact, contactId) => {
+		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(updatedContact));
 	};
 
 const getOneContact = (contactId) => {
