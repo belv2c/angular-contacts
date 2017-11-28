@@ -5,7 +5,6 @@ app.controller("DetailCtrl", function($location, $routeParams, $scope, ContactSe
 	const getContacts = () => {
 		ContactService.getOneContact($routeParams.id).then((results) => {
 			$scope.contacts = results;
-			console.log(results);
 		}).catch((err) => {
 			console.log("error in getContacts", err);
 		});
@@ -31,13 +30,5 @@ app.controller("DetailCtrl", function($location, $routeParams, $scope, ContactSe
 	});
   };
 
-$scope.editContact = (userId) => {
-	$location.path(`/contacts/edit/${userId}`);
-};
 
-$scope.contactDetail = (userId) => {
-	$location.path(`/contacts/detail/${userId}`);
-};
-
-getContacts();
 });

@@ -4,13 +4,13 @@ app.service("ContactService", function($http, $rootScope, $q, FIREBASE_CONFIG) {
 	
 	const createContactObject = (contact) => {
 		 return {
-			"firstName": contact.firstname,
-			"lastName": contact.lastname,
+			"firstName": contact.firstName,
+			"lastName": contact.lastName,
 			"address": contact.address,
-			"phoneNumber": contact.phonenumber,
+			"phoneNumber": contact.phoneNumber,
 			"email": contact.email,
 			"birthday": contact.birthday,
-			"nickName": contact.nickname,
+			"nickName": contact.nickName,
 			"user_id": $rootScope.uid,
 			"favorite": true
 		};
@@ -59,16 +59,16 @@ const addNewContact = (newContact) => {
 	return $http.post(`${FIREBASE_CONFIG.databaseURL}/contacts.json`, JSON.stringify(newContact));
 };
 
-const deleteContact = (userId) => {
-		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${userId}.json`);
+const deleteContact = (contactId) => {
+		return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
 	};
 
-const updateContact = (contact, userId) => {
-		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${userId}.json`, JSON.stringify(contact));
+const updateContact = (contact, contactId) => {
+		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
 	};
 
-const getOneContact = (userId) => {
-	return $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts/${userId}.json`);
+const getOneContact = (contactId) => {
+	return $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
 };
 
 

@@ -12,13 +12,13 @@ const getContacts = () => {
 
 	$scope.submitForm = (contact) => {
 		let updatedContact = {
-			"firstName": $scope.newcontact.firstname,
-			"lastName": $scope.newcontact.lastname,
+			"firstName": $scope.newcontact.firstName,
+			"lastName": $scope.newcontact.lastName,
 			"address": $scope.newcontact.address,
-			"phoneNumber": $scope.newcontact.phonenumber,
+			"phoneNumber": $scope.newcontact.phoneNumber,
 			"email": $scope.newcontact.email,
 			"birthday": $scope.newcontact.birthday,
-			"nickName": $scope.newcontact.nickname,
+			"nickName": $scope.newcontact.nickName,
 			"user_id": $rootScope.uid,
 			"favorite": false
 		};
