@@ -36,12 +36,13 @@ $scope.favoriteContacts = (contact) => {
 	});
 };
 
-$scope.editContact = (userId) => {
-	$location.path(`/contacts/edit/${userId}`);
+$scope.editContact = (contactId) => {
+	$location.path(`/contacts/edit/${contactId}`);
 };
 
-$scope.contactDetail = (userId) => {
-	$location.path(`/contacts/detail/${userId}`);
+$scope.contactDetail = (contact, contactId) => {
+	console.log("contactId", contactId);
+	$location.path(`/contacts/detail/${contactId}`);
 };
 
 });

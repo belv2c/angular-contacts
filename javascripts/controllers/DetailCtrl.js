@@ -4,7 +4,7 @@ app.controller("DetailCtrl", function($location, $routeParams, $scope, ContactSe
 
 	const getContacts = () => {
 		ContactService.getOneContact($routeParams.id).then((results) => {
-			$scope.contacts = results;
+			$scope.contact = results.data;
 		}).catch((err) => {
 			console.log("error in getContacts", err);
 		});
