@@ -1,0 +1,42 @@
+<div class="text-center" id="edit" ng-controller="EditCtrl">
+<div class="editContactForm container col-md-9 col-md-offset-4">
+  <form class="form" name="newcontact">
+    <div class="row inputRow">
+      <h3 class="friends-title"> Edit your friend's information </h3>
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="FirstName" placeholder="First Name" ng-model="contact.firstName" ng-required="true">
+      </div>
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="LastName" placeholder="Last Name" ng-model="contact.lastName" ng-required="true">
+      </div>
+    </div>
+    <div class="row inputRow">
+      <div class="col-xs-3">
+        <input type="tel" class="form-control" id="mobile" placeholder="Mobile Number" ng-model="contact.phoneNumber" ng-required="true">
+      </div>
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="address" placeholder="Address" ng-model="contact.address" ng-required="true">
+      </div>
+    </div>
+    <div class="row inputRow">
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="bday" placeholder="Birthday" ng-model="contact.birthday" ng-required="true">
+      </div>
+      <div class="col-xs-3">
+       <input type="text" class="form-control" id="nickname" placeholder="Nick-name" ng-model="contact.nickName" ng-required="true">
+      </div>
+      </div>
+      <div class="row inputRow">
+      <div class="col-xs-3">
+        <input type="email" class="form-control" id="email" placeholder="Email" ng-model="contact.email" ng-required="true">
+      </div>
+      </div>
+    </div>
+     <button type="button" class="btn btn-default col-xs-1 col-md-offset-6" ng-click="submitForm(contact)">Update</button>
+  </form>
+</div>     
+</div>
+         
+                    
+   
+ 

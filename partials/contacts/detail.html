@@ -1,8 +1,8 @@
-<div class="text-center" id="favorites">
-		<h1>My BFF's</h1>
+<div class="text-center" >
 	<div id="contacts">
-		<div ng-repeat="contact in contacts" class="col-lg-4 contact">
+		<div class="col-lg-4 contact">
 			<div class="thumbnail">
+				
 			<div class="contact-holder">
 				<i class="fa fa-user-circle-o" id="memberImg" aria-hidden="true"></i>
 				<h4>{{contact.firstName}} {{contact.lastName}}</h4>
@@ -12,15 +12,11 @@
 				<p><i class="fa fa-birthday-cake" aria-hidden="true"></i> {{contact.birthday}}</p>
 				<p><i class="fa fa-heart-o" aria-hidden="true"></i> {{contact.nickName}} </p>
 			</div>
-			<button class="btn btn-default delete col-xs-3" ng-click="deleteContact(contact.id)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-
+			
 			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact)" ng-if="contact.favorite"><i class="fa fa-star" aria-hidden="true"></i></button>
 
 			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact)" ng-if="!contact.favorite"><i class="fa fa-star-o" aria-hidden="true"></i></button>
 
-			<button class="btn btn-default edit col-xs-3" ng-click="editContact(contact.id)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-
-			<button class="btn btn-default detail col-xs-3" ng-click="contactDetail(contact, contact.id)"><i class="fa fa-search" aria-hidden="true"></i></button>
 			
 		</div>
 	  </div>

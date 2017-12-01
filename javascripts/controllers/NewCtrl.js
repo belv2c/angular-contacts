@@ -12,7 +12,8 @@ app.controller("NewCtrl", function($http, $location, $rootScope, $scope, Contact
 			"email": $scope.newcontact.email,
 			"birthday": $scope.newcontact.birthday,
 			"nickName": $scope.newcontact.nickname,
-			"user_id": $rootScope.uid
+			"user_id": $rootScope.uid,
+			"favorite": false
 		};
 		
 		ContactService.addNewContact(newContact).then((results) => {
