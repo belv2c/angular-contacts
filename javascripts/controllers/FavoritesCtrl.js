@@ -22,6 +22,24 @@ $scope.deleteContact = (contactId) => {
 			console.log("error in deleteContact", err);
 		});
 	};
+	
+$scope.favoriteContacts = (contact, contactId) => {
+	let updatedContact = {};
+
+	if (!contact.favorite) {
+		updatedContact = ContactService.createContactObject(contact);
+	} else {
+		updatedContact = ContactService.createContactObject(contact);
+		updatedContact.favorite = false;
+	}
+	ContactService.updateContact(updatedContact, contact.id).then(() => {
+		getContacts();
+	}).catch((err) => {
+		console.log("error in favoriteContacts", err);
+	});
+};
+
+
 
 
 $scope.editContact = (contactId) => {
