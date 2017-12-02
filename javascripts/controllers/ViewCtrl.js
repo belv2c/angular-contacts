@@ -45,7 +45,6 @@ $scope.contactDetail = (contact, contactId) => {
 };
 
 $scope.contactNotes = (contact, contactId) => {
-	console.log("contactId", contactId);
 	$location.path(`/contacts/notes/${contactId}`);
 };
 
