@@ -2,22 +2,32 @@
 
 .thumbnail {
     border-radius: 35px;
-	box-shadow: 0 0 15px rgba(0,0,0,0.3);
-	background: linear-gradient(to left, #00D2C8, #1A8A9D);
+	   box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	   background: linear-gradient(to left, #00D2C8, #1A8A9D);
   	max-width: 296px;
   	color: $white;
   	margin-bottom: 40px;
   	margin: 36px;
+    height: 302px;
 
 
-	.delete {
+	.col-xs-3 {
 		border: none;
 		background-color: $clear;
-    	color: $white;
-    	font-size: x-large;
-    	margin-top: -44px;
-    	
+    color: $white;
+    font-size: x-large; 
+    margin: -8px;	
 	}
+}
+
+.contact-title {
+    font-size: 2em;
+
+ }
+
+ .note-submit {
+   margin-top: 22px;
+ 
 }
 
 #memberImg {
@@ -29,7 +39,7 @@
  }
 
  	.location {
-    	    font-size: 1.2em;
+    	font-size: 1.2em;
 
 		}
 

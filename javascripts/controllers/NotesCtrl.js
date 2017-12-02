@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("EditCtrl", function($location, $rootScope, $routeParams, $scope, ContactService) {
+app.controller("NotesCtrl", function($location, $rootScope, $routeParams, $scope, ContactService) {
 	
 const getContacts = () => {
 		ContactService.getOneContact($routeParams.id).then((results) => {
@@ -25,7 +25,9 @@ const getContacts = () => {
 		};
 		
 		ContactService.updateContact(contact, $routeParams.id).then((results) => {
+			updatedContact = ContactService.createContactObject(contact);
 			$location.path("/contacts/view");
+			
 		}).catch((err) => {
 			console.log("error in submitForm", err);
 		});

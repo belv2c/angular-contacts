@@ -71,6 +71,12 @@ app.config(function($routeProvider){
 			controller: 'DetailCtrl',
 			resolve: '{isAuth}'
 		})
+		.when("/contacts/notes/:id", {
+			// path to html file and path to javascript file
+			templateUrl: 'partials/contacts/notes.html',
+			controller: 'NotesCtrl',
+			resolve: '{isAuth}'
+		})
 		
 		// if your user tries to type in any other route besides what you've defined you can redirect them
 		.otherwise('/login');

@@ -6,13 +6,20 @@
   max-width: 296px;
   color: white;
   margin-bottom: 40px;
-  margin: 36px; }
-  .thumbnail .delete {
+  margin: 36px;
+  height: 302px; }
+  .thumbnail .col-xs-3 {
     border: none;
     background-color: transparent;
     color: white;
     font-size: x-large;
-    margin-top: -44px; }
+    margin: -8px; }
+
+.contact-title {
+  font-size: 2em; }
+
+.note-submit {
+  margin-top: 22px; }
 
 #memberImg {
   margin-top: -37px;

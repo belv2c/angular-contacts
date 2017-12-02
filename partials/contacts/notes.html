@@ -1,0 +1,17 @@
+<div class="text-center" ng-controller="NotesCtrl">
+<div class="editNote container col-md-9 col-md-offset-4">
+  <form class="form" name="newcontact">
+		<div class="col-lg-4">
+		
+				
+			<p class="contact-title">Add a note to {{contact.firstName}}</p>
+			<input type="text" class="form-control" id="note" placeholder="add note" ng-model="contact.note" ng-required="true">
+
+
+			<button ng-disabled="newcontact.$invalid" type="button" class="btn btn-default col-xs-4 col-md-offset-4 note-submit" ng-click="submitForm(contact)">Submit</button>
+			
+		
+			
+		</div>
+	  </div>
+	</div>

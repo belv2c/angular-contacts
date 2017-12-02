@@ -17,7 +17,8 @@
 				<p><i class="fa fa-envelope-o" aria-hidden="true"></i> {{contact.email}} </p>
 				<p><i class="fa fa-birthday-cake" aria-hidden="true"></i> {{contact.birthday}}</p>
 				<p><i class="fa fa-heart-o" aria-hidden="true"></i> {{contact.nickName}} </p>
-			</div>
+				<p><i class="fa fa-sticky-note-o" aria-hidden="true"></i> {{contact.note}} </p>
+			
 			<button class="btn btn-default delete col-xs-3" ng-click="deleteContact(contact.id)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
 
 			<button class="btn btn-default star col-xs-3" ng-click="favoriteContacts(contact)" ng-if="contact.favorite"><i class="fa fa-star" aria-hidden="true"></i></button>
@@ -28,6 +29,8 @@
 
 			<button class="btn btn-default detail col-xs-3" ng-click="contactDetail(contact, contact.id)"><i class="fa fa-search" aria-hidden="true"></i></button>
 			
+			<button class="btn btn-default detail col-xs-3" ng-click="contactNotes(contact, contact.id)"><i class="fa fa-sticky-note-o" aria-hidden="true"></i></button>
+			</div>
 		</div>
 	  </div>
 	</div>
