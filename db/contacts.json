@@ -8,6 +8,7 @@
 				"email": "ael9917@yahoo.com",
 				"birthday": "March 29, 1965",
 				"nickName": "Mom",
+				"note": "",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "true"
 		},
@@ -19,6 +20,7 @@
 				"email": "scott.o.lewis@gmail.com",
 				"birthday": "December 5, 1965",
 				"nickName": "Dad",
+				"note": "",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "true"
 		},
@@ -30,6 +32,7 @@
 				"email": "andyandstrife@me.com",
 				"birthday": "October 5, 1986",
 				"nickName": "Feathers Weathers",
+				"note": "",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "true"
 		},
@@ -41,6 +44,7 @@
 				"email": "kathrynmcginnis@darlin.com",
 				"birthday": "December 2, 1990",
 				"nickName": "Katie",
+				"note": "This is a note",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "true"
 		},
@@ -52,6 +56,7 @@
 				"email": "sashasantillian@gmail.com",
 				"birthday": "July 3, 1988",
 				"nickName": "Salsa",
+				"note": "This is a note",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "true"
 		},
@@ -63,6 +68,7 @@
 				"email": "rossbrown@gmail.com",
 				"birthday": "January 2, 1988",
 				"nickName": "Sauce",
+				"note": "This is a note",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "false"
 		},
@@ -74,6 +80,7 @@
 				"email": "sportsisadog@gmail.com",
 				"birthday": "May 16, 2016",
 				"nickName": "Sportsberg",
+				"note": "This is a note",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "false"
 		},
@@ -85,6 +92,7 @@
 				"email": "samipaxton@gmail.com",
 				"birthday": "January 9, 1989",
 				"nickName": "Sami",
+				"note": "This is a note",
 				"user_id": "MTnGqrZOPTNyFVboRrv7sQc2vaj2",
 				"favorite": "false"
 		},
@@ -96,6 +104,7 @@
 				"email": "alexlewis@gmail.com",
 				"birthday": "July 2, 2001",
 				"nickName": "Bro",
+				"note": "This is a note",
 				"user_id": "12345",
 				"favorite": "false"
 		},
@@ -107,6 +116,7 @@
 				"email": "grandma@gmail.com",
 				"birthday": "Oct 15, 1954",
 				"nickName": "Grandma",
+				"note": "This is a note",
 				"user_id": "12345",
 				"favorite": "false"
 			}
